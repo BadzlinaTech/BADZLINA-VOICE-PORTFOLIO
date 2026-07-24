@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Badzlina Razi | Voice Talent &amp; Voice Over Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/splitting@1.0.6/dist/splitting.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-bar">
+    <div class="brand">Badzlina Razi <span style="font-weight:400;font-size:0.8rem;">| Voice</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about" data-lang="en">About Me</a><a href="#about" data-lang="bm">Tentang Saya</a></li>
+      <li><a href="#reel" data-lang="en">Demo Reel</a><a href="#reel" data-lang="bm">Reel Demo</a></li>
+      <li><a href="#genres" data-lang="en">Voice Genres</a><a href="#genres" data-lang="bm">Genre Suara</a></li>
+      <li><a href="#specs" data-lang="en">Setup</a><a href="#specs" data-lang="bm">Peralatan</a></li>
+      <li><a href="#booking" data-lang="en">Book Me</a><a href="#booking" data-lang="bm">Tempah Saya</a></li>
+    </ul>
+    <button class="lang-toggle" id="langToggle" type="button">Bahasa Melayu</button>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<section class="hero">
+  <canvas id="voiceCanvas" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+  <span class="hero-badge" data-lang="en">🎙️ Bilingual EN / BM Voice Talent</span>
+  <span class="hero-badge" data-lang="bm">🎙️ Bakat Suara Dwibahasa BI / BM</span>
+  <h1 data-splitting data-lang="en">Voice Talent &bull; Voice Actor &bull; Voice Over</h1>
+  <h1 data-splitting data-lang="bm" class="block">Bakat Suara &bull; Pelakon Suara &bull; Suara Alih</h1>
+  <p class="tagline block" data-lang="en">Bilingual EN/BM voice talent for commercial, corporate, character, and social content — recorded studio-quality from a home setup.</p>
+  <p class="tagline block" data-lang="bm">Bakat suara dwibahasa BI/BM untuk kandungan komersial, korporat, watak, dan media sosial — kualiti studio dari rumah.</p>
+  <div class="wave-bars" id="waveBars" aria-hidden="true"></div>
+  <div class="hero-buttons">
+    <a href="#reel" class="btn btn-coral" data-lang="en">Listen to Demo Reel</a>
+    <a href="#reel" class="btn btn-coral" data-lang="bm">Dengar Reel Demo</a>
+    <a href="#booking" class="btn btn-outline" data-lang="en">Book Me</a>
+    <a href="#booking" class="btn btn-outline" data-lang="bm">Tempah Saya</a>
+  </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="section-title" data-splitting data-lang="en">About Me</h2>
+  <h2 class="section-title" data-splitting data-lang="bm">Tentang Saya</h2>
+  <div class="about-card">
+    <img class="about-photo" src="profile.jpg" alt="Badzlina Razi — voice talent">
+    <p class="about-bio block" data-lang="en">Hi, I'm <strong>Badzlina Razi</strong> — a Malaysian-based bilingual voice talent recording in English and Bahasa Malaysia. From warm commercial reads to playful characters and clean corporate narration, I deliver studio-quality audio from my home setup, with fast turnaround and friendly communication.</p>
+    <p class="about-bio block" data-lang="bm">Hai, saya <strong>Badzlina Razi</strong> — bakat suara dwibahasa yang berpangkalan di Malaysia, merakam dalam Bahasa Inggeris dan Bahasa Malaysia. Daripada bacaan komersial yang mesra hingga watak yang ceria dan narasi korporat yang profesional, saya menghasilkan audio berkualiti studio dari rumah, dengan penghantaran pantas.</p>
+    <div class="contact-chips">
+      <a class="contact-chip" href="tel:+60182780523">📞 +60 18-278 0523</a>
+      <a class="contact-chip" href="mailto:novabadzlinaglobal@gmail.com">✉️ novabadzlinaglobal@gmail.com</a>
+    </div>
+    <p class="payment-note" data-lang="en">💱 Payments accepted in <strong>MYR (RM)</strong>, <strong>USD ($)</strong> and <strong>GBP (£)</strong>.</p>
+    <p class="payment-note" data-lang="bm">💱 Pembayaran diterima dalam <strong>MYR (RM)</strong>, <strong>USD ($)</strong> dan <strong>GBP (£)</strong>.</p>
+  </div>
+</section>
+
+<section id="reel">
+  <h2 class="section-title" data-splitting data-lang="en">Demo Reel</h2>
+  <h2 class="section-title" data-splitting data-lang="bm">Reel Demo</h2>
+  <p class="section-sub" data-lang="en">A short montage across every genre I record — commercial, corporate, character, and more.</p>
+  <p class="section-sub" data-lang="bm">Montaj ringkas merangkumi setiap genre yang saya rakam — komersial, korporat, watak, dan lain-lain.</p>
+  <div class="reel-card">
+    <h3>🎧 Full Demo Reel</h3>
+    <audio controls>
+      <source src="audio/demoreel.m4a" type="audio/mp4">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</section>
+
+<section id="genres">
+  <h2 class="section-title" data-splitting data-lang="en">Voice Genres</h2>
+  <h2 class="section-title" data-splitting data-lang="bm">Genre Suara</h2>
+  <p class="section-sub" data-lang="en">Click a genre to hear the sample and see the script direction.</p>
+  <p class="section-sub" data-lang="bm">Klik genre untuk dengar sampel dan lihat arahan skrip.</p>
+
+  <div class="genre-tabs" id="genreTabs">
+    <button class="genre-tab-btn active" data-genre="commercial">✨ Commercial</button>
+    <button class="genre-tab-btn" data-genre="corporate">💼 Corporate</button>
+    <button class="genre-tab-btn" data-genre="character">🎭 Character</button>
+    <button class="genre-tab-btn" data-genre="trailer">🎬 Trailer</button>
+    <button class="genre-tab-btn" data-genre="ivr">📞 IVR</button>
+    <button class="genre-tab-btn" data-genre="ugc">📱 UGC / Social</button>
+    <button class="genre-tab-btn" data-genre="singing">🎵 Singing / Jingle</button>
+    <button class="genre-tab-btn" data-genre="asmr">🌙 ASMR</button>
+    <button class="genre-tab-btn" data-genre="audiobook">📖 Audiobook</button>
+    <button class="genre-tab-btn" data-genre="accents">🗣️ Accents &amp; Styles</button>
+  </div>
+
+  <div class="genre-panel active" id="panel-commercial">
+    <div class="genre-card">
+      <h3>Commercial — Beauty Product Ad</h3>
+      <p class="tone-note">Tone: Warm, confident, upbeat. Slight smile in the voice.</p>
+      <div class="script-line"><span class="lang-label">EN</span>"Glowing skin doesn't happen by accident. Introducing the new Radiance Serum — lightweight, fast-absorbing, and packed with vitamin C."</div>
+      <div class="sample-row"><span class="sample-lang">EN</span><audio controls preload="none"><source src="audio/commercial-beauty-en.m4a" type="audio/mp4"></audio></div>
+      <div class="script-line"><span class="lang-label">BM</span>"Kulit yang bercahaya bukan sesuatu yang berlaku secara kebetulan. Perkenalkan Radiance Serum yang baharu — ringan, cepat meresap."</div>
+      <div class="sample-row"><span class="sample-lang">BM</span><audio controls preload="none"><source src="audio/commercial-beauty-bm.m4a" type="audio/mp4"></audio></div>
+
+      <h4 class="sample-group-title">Commercial — Tech Gadget Ad</h4>
+      <p class="tone-note">Tone: Crisp, modern, energetic.</p>
+      <div class="sample-row"><span class="sample-lang">EN</span><audio controls preload="none"><source src="audio/commercial-tech-en.m4a" type="audio/mp4"></audio></div>
+      <div class="sample-row"><span class="sample-lang">BM</span><audio controls preload="none"><source src="audio/commercial-tech-bm.m4a" type="audio/mp4"></audio></div>
+    </div>
+  </div>
+
+  <div class="genre-panel" id="panel-corporate">
+    <div class="genre-card">
+      <h3>Corporate / E-Learning Narration</h3>
+      <p class="tone-note">Tone: Clear, steady, professional. Neutral pacing.</p>
+      <div class="script-line"><span class="lang-label">EN</span>"Welcome to Module Two: Managing Customer Relationships. Let's get started."</div>
+      <div class="sample-row"><span class="sample-lang">EN</span><audio controls preload="none"><source src="audio/corporate-en.m4a" type="audio/mp4"></audio></div>
+      <div class="script-line"><span class="lang-label">BM</span>"Selamat datang ke Modul Dua: Mengurus Hubungan Pelanggan. Mari kita mulakan."</div>
+      <div class="sample-row"><span class="sample-lang">BM</span><audio controls preload="none"><source src="audio/corporate-bm.m4a" type="audio/mp4"></audio></div>
+    </div>
+  </div>
+
+  <div class="genre-panel" id="panel-character">
+    <div class="genre-card">
+      <h3>Character / Animation Voice</h3>
+      <p class="tone-note">Tone: Playful, expressive, exaggerated.</p>
+      <div class="script-line"><span class="lang-label">EN</span>"Wait... did you hear that? I think there's something behind the door!"</div>
+      <div class="sample-row"><span class="sample-lang">EN</span><audio controls preload="none"><source src="audio/character-en.m4a" type="audio/mp4"></audio></div>
+      <div class="script-line"><span class="lang-label">BM</span>"Nanti... awak dengar tak tadi? Saya rasa ada sesuatu di sebalik pintu itu!"</div>
+      <div class="sample-row"><span class="sample-lang">BM</span><audio controls preload="none"><source src="audio/character-bm.m4a" type="audio/mp4"></audio></div>
+    </div>
+  </div>
+
+  <div class="genre-panel" id="panel-trailer">
+    <div class="genre-card">
+      <h3>Movie / Drama Trailer</h3>
+      <p class="tone-note">Tone: Deep, deliberate, dramatic pauses.</p>
+      <div class="script-line"><span class="lang-label">EN</span>"In a world where every choice has a price... [pause] Loyalty. Betrayal. Redemption."</div>
+      <div class="sample-row"><span class="sample-lang">EN</span><audio controls preload="none"><source src="audio/trailer-en.m4a" type="audio/mp4"></audio></div>
+      <div class="script-line"><span class="lang-label">BM</span>"Dalam sebuah dunia di mana setiap pilihan ada harganya... [jeda] Kesetiaan. Pengkhianatan."</div>
+      <div class="sample-row"><span class="sample-lang">BM</span><audio controls preload="none"><source src="audio/trailer-bm.m4a" type="audio/mp4"></audio></div>
+    </div>
+  </div>
+
+  <div class="genre-panel" id="panel-ivr">
+    <div class="genre-card">
+      <h3>IVR / On-Hold / Phone System</h3>
+      <p class="tone-note">Tone: Friendly, calm, clearly enunciated.</p>
+      <div class="script-line"><span class="lang-label">EN</span>"Thank you for calling. Your call is important to us."</div>
+      <div class="sample-row"><span class="sample-lang">EN</span><audio controls preload="none"><source src="audio/ivr-en.m4a" type="audio/mp4"></audio></div>
+      <div class="script-line"><span class="lang-label">BM</span>"Terima kasih kerana menghubungi kami. Panggilan anda amat penting bagi kami."</div>
+      <div class="sample-row"><span class="sample-lang">BM</span><audio controls preload="none"><source src="audio/ivr-bm.m4a" type="audio/mp4"></audio></div>
+    </div>
+  </div>
+
+  <div class="genre-panel" id="panel-ugc">
+    <div class="genre-card">
+      <h3>Social Media / UGC-Style Promo</h3>
+      <p class="tone-note">Tone: Natural, conversational, like talking to a friend.</p>
+      <div class="script-line"><span class="lang-label">EN</span>"Okay, so I've been using this for two weeks and I need to talk about it."</div>
+      <div class="sample-row"><span class="sample-lang">EN</span><audio controls preload="none"><source src="audio/ugc-en.m4a" type="audio/mp4"></audio></div>
+      <div class="script-line"><span class="lang-label">BM</span>"Okay, jadi saya dah guna ni dua minggu dan saya rasa perlu cerita pasal ni."</div>
+      <div class="sample-row"><span class="sample-lang">BM</span><audio controls preload="none"><source src="audio/ugc-bm.m4a" type="audio/mp4"></audio></div>
+    </div>
+  </div>
+
+  <div class="genre-panel" id="panel-singing">
+    <div class="genre-card">
+      <h3>Singing / Product Jingle</h3>
+      <p class="tone-note">Tone: Light, bright, sing-song delivery.</p>
+      <div class="script-line"><span class="lang-label">EN</span>🎵 "Fresh face, new day, glow the Radiance way — one little serum, made for you!" 🎵</div>
+      <div class="sample-row"><span class="sample-lang">EN</span><audio controls preload="none"><source src="audio/jingle-en.m4a" type="audio/mp4"></audio></div>
+      <div class="script-line"><span class="lang-label">BM</span>🎵 "Wajah segar, hari baharu, bersinar cara Radiance untuk kamu!" 🎵</div>
+      <div class="sample-row"><span class="sample-lang">BM</span><audio controls preload="none"><source src="audio/jingle-bm.m4a" type="audio/mp4"></audio></div>
+    </div>
+  </div>
+
+  <div class="genre-panel" id="panel-asmr">
+    <div class="genre-card">
+      <h3>ASMR — Relaxation Narration</h3>
+      <p class="tone-note">Tone: Soft, slow, close to the mic. Calm and soothing delivery.</p>
+      <div class="sample-row"><span class="sample-lang">EN</span><audio controls preload="none"><source src="audio/asmr-en.m4a" type="audio/mp4"></audio></div>
+      <div class="sample-row"><span class="sample-lang">BM</span><audio controls preload="none"><source src="audio/asmr-bm.m4a" type="audio/mp4"></audio></div>
+    </div>
+  </div>
+
+  <div class="genre-panel" id="panel-audiobook">
+    <div class="genre-card">
+      <h3>Audiobook — Long-Form Narration</h3>
+      <p class="tone-note">Tone: Steady, expressive, easy to listen to over long stretches.</p>
+      <div class="sample-row"><span class="sample-lang">EN</span><audio controls preload="none"><source src="audio/audiobook-en.m4a" type="audio/mp4"></audio></div>
+      <div class="sample-row"><span class="sample-lang">BM</span><audio controls preload="none"><source src="audio/audiobook-bm.m4a" type="audio/mp4"></audio></div>
+    </div>
+  </div>
+
+  <div class="genre-panel" id="panel-accents">
+    <div class="genre-card">
+      <h3>Accent &amp; Style Variations</h3>
+      <p class="tone-note">A quick tour through different accents and delivery styles in one take.</p>
+      <div class="sample-row"><span class="sample-lang">MIX</span><audio controls preload="none"><source src="audio/accents.m4a" type="audio/mp4"></audio></div>
+    </div>
+  </div>
+</section>
+
+<section id="specs">
+  <h2 class="section-title" data-splitting data-lang="en">Recording Setup</h2>
+  <h2 class="section-title" data-splitting data-lang="bm">Peralatan Rakaman</h2>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-icon">🎙️</div><h4>Mic</h4><p>Hollyland Lark A1 wireless lavalier</p></div>
+    <div class="spec-item"><div class="spec-icon">📱</div><h4>Device</h4><p>iPhone 17 Pro Max</p></div>
+    <div class="spec-item"><div class="spec-icon">🎚️</div><h4>Quality</h4><p>48kHz / 24-bit, mono</p></div>
+    <div class="spec-item"><div class="spec-icon">🌐</div><h4>Languages</h4><p>English &amp; Bahasa Malaysia</p></div>
+  </div>
+</section>
+
+<section id="booking">
+  <h2 class="section-title" data-splitting data-lang="en">Book Me</h2>
+  <h2 class="section-title" data-splitting data-lang="bm">Tempah Saya</h2>
+  <p class="section-sub" data-lang="en">Tell me about your project and I'll get back to you.</p>
+  <p class="section-sub" data-lang="bm">Ceritakan tentang projek anda dan saya akan hubungi anda semula.</p>
+
+  <div class="booking-wrap">
+    <form id="bookingForm" novalidate>
+      <div class="form-row" id="row-name">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+        <div class="error-msg">Please enter at least 2 characters.</div>
+      </div>
+
+      <div class="form-row" id="row-email">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com">
+        <div class="error-msg">Please enter a valid email address.</div>
+      </div>
+
+      <div class="form-row" id="row-phone">
+        <label for="phone">Phone (optional)</label>
+        <input type="tel" id="phone" name="phone" placeholder="+60 12-345 6789">
+        <div class="error-msg">That phone number doesn't look right.</div>
+      </div>
+
+      <div class="form-row" id="row-projectType">
+        <label for="projectType">Project Type</label>
+        <select id="projectType" name="projectType">
+          <option value="">-- Select --</option>
+          <option value="commercial">Commercial Ad</option>
+          <option value="corporate">Corporate / E-Learning</option>
+          <option value="character">Character / Animation</option>
+          <option value="trailer">Trailer / Narration</option>
+          <option value="ivr">IVR / Phone System</option>
+          <option value="ugc">UGC / Social Media</option>
+          <option value="singing">Singing / Jingle</option>
+          <option value="other">Other</option>
+        </select>
+        <div class="error-msg">Please select a project type.</div>
+      </div>
+
+      <div class="form-row" id="row-currency">
+        <label for="currency">Payment Currency</label>
+        <select id="currency" name="currency">
+          <option value="">-- Select --</option>
+          <option value="myr">MYR (RM) — Malaysian Ringgit</option>
+          <option value="usd">USD ($) — US Dollar</option>
+          <option value="gbp">GBP (£) — British Pound</option>
+        </select>
+        <div class="error-msg">Please choose a payment currency.</div>
+      </div>
+
+      <div class="form-row" id="row-budget">
+        <label for="budget">Budget Range (optional)</label>
+        <select id="budget" name="budget">
+          <option value="">-- Select --</option>
+          <option value="under-rm100">Under RM100</option>
+          <option value="rm100-300">RM100 – RM300</option>
+          <option value="rm300-plus">RM300+</option>
+          <option value="not-sure">Not sure yet</option>
+        </select>
+        <p class="form-hint" data-lang="en">💱 Ranges update to match your selected payment currency.</p>
+        <p class="form-hint" data-lang="bm">💱 Julat berubah mengikut mata wang pembayaran yang dipilih.</p>
+      </div>
+
+      <div class="form-row" id="row-method">
+        <label for="payMethod">Payment Type</label>
+        <select id="payMethod" name="payMethod">
+          <option value="">-- Select --</option>
+          <option value="fpx">FPX / Online Banking</option>
+          <option value="qr">QR Pay</option>
+          <option value="card">Credit / Debit Card</option>
+          <option value="payoneer">Payoneer</option>
+          <option value="stripe">Stripe</option>
+          <option value="paypal" disabled>PayPal — Coming Soon 🔜</option>
+        </select>
+        <div class="error-msg">Please choose a payment type.</div>
+      </div>
+
+      <div class="form-row" id="row-deposit">
+        <label for="deposit">Deposit — how much can you pay first?</label>
+        <select id="deposit" name="deposit">
+          <option value="">-- Select --</option>
+          <option value="10">10%</option>
+          <option value="20">20%</option>
+          <option value="30">30%</option>
+          <option value="40">40%</option>
+          <option value="50">50%</option>
+        </select>
+        <p class="form-hint" data-lang="en">🔒 A 10%–50% deposit is required to confirm your booking. Deposits are <strong>non-refundable</strong>.</p>
+        <p class="form-hint" data-lang="bm">🔒 Deposit 10%–50% diperlukan untuk mengesahkan tempahan. Deposit <strong>tidak akan dikembalikan</strong>.</p>
+        <div class="error-msg">Please choose a deposit amount.</div>
+      </div>
+
+      <div class="form-row" id="row-days">
+        <label for="days">Timeline — how many days for this job? (optional)</label>
+        <input type="number" id="days" name="days" min="1" max="365" placeholder="e.g. 3">
+        <div class="error-msg">Please enter between 1 and 365 days.</div>
+      </div>
+
+      <div class="form-row form-check" id="row-rush">
+        <label class="check-label" for="rush">
+          <input type="checkbox" id="rush" name="rush">
+          <span data-lang="en">⚡ Rush job — I need this within 24–48 hours</span>
+          <span data-lang="bm">⚡ Kerja segera — saya perlukan dalam 24–48 jam</span>
+        </label>
+        <p class="form-hint" data-lang="en">A small rush surcharge may apply — I'll confirm the quote with you first.</p>
+        <p class="form-hint" data-lang="bm">Caj tambahan mungkin dikenakan untuk kerja segera — saya akan sahkan sebut harga dahulu.</p>
+      </div>
+
+      <div class="form-row" id="row-message">
+        <label for="message">Project Details</label>
+        <textarea id="message" name="message" rows="4" maxlength="1000" placeholder="Tell me about your project, script length, deadline..."></textarea>
+        <div class="char-count"><span id="charCount">0</span>/1000</div>
+        <div class="error-msg">Message is too long.</div>
+      </div>
+
+      <button type="submit" class="btn btn-coral" style="width:100%;">Send Booking Request</button>
+      <div id="formStatus"></div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p style="font-size:1.05rem;margin-bottom:6px;">🎙️ <strong>Badzlina Razi</strong></p>
+  <p>&copy; 2026 Nur Badzlina Razi. Voice Talent &bull; Voice Actor &bull; Voice Over.</p>
+  <p style="margin-top:6px;opacity:0.85;" data-lang="en">Available worldwide for every kind of voice over work — commercial, corporate, character, narration, IVR, social, jingles &amp; more.</p>
+  <p style="margin-top:6px;opacity:0.85;" data-lang="bm">Tersedia di seluruh dunia untuk setiap jenis kerja suara — komersial, korporat, watak, naratif, IVR, sosial, jingle &amp; lagi.</p>
+</footer>
+
+<!-- Floating WhatsApp chat button -->
+<a class="wa-float" id="waFloat"
+   href="https://wa.me/60182780523?text=Hi%20Badzlina!%20I%27m%20interested%20in%20your%20voice%20over%20services."
+   target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true">
+    <path fill="currentColor" d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-4.9 1 1-4.8-.2-.4c-1-1.6-1.5-3.4-1.5-5.3C4.9 9.4 9.9 4.5 16 4.5S27.1 9.4 27.1 15.5 22.1 24.8 16 24.8zm6.1-7.6c-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.8.2s-.9 1.1-1.1 1.3c-.2.2-.4.2-.7.1-1.8-.9-3-1.6-4.2-3.6-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.6s-.8-1.9-1.1-2.6c-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.6.1-.9.4-.3.4-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.5 3.8 6 5.3 2.2.9 3.1 1 4.2.9.7-.1 2-.8 2.3-1.7.3-.8.3-1.5.2-1.7-.1-.1-.3-.2-.6-.4z"/>
+  </svg>
+  <span class="wa-float-label" data-lang="en">Chat with me</span>
+  <span class="wa-float-label" data-lang="bm">Hubungi saya</span>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/splitting@1.0.6/dist/splitting.min.js"></script>
+<script src="main.js"></script>
+<script src="cinematic.js"></script>
+</body>
+</html>
